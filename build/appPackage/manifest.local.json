@@ -1,0 +1,72 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.14",
+    "version": "1.0.0",
+    "id": "e0eb3982-6365-4b93-b3f4-943cfcbf91cd",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://www.example.com",
+        "privacyUrl": "https://www.example.com/termofuse",
+        "termsOfUseUrl": "https://www.example.com/privacy"
+    },
+    "icons": {
+        "color": "resources/color.png",
+        "outline": "resources/outline.png"
+    },
+    "name": {
+        "short": "openai-teams-bot-local-debug",
+        "full": "Full name for openai-teams-bot-local-debug"
+    },
+    "description": {
+        "short": "Short description of openai-teams-bot-local-debug",
+        "full": "Full description of openai-teams-bot-local-debug"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "4c9c4c3f-e89e-4d28-9200-833afae93cf5",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal",
+                        "team",
+                        "groupchat"
+                    ],
+                    "commands": []
+                }
+            ]
+        }
+    ],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "webApplicationInfo": {
+        "id": "4c9c4c3f-e89e-4d28-9200-833afae93cf5",
+        "resource": "https://RscPermission"
+    },
+    "authorization": {
+        "permissions": {
+            "resourceSpecific": [
+                {
+                    "name": "OnlineMeeting.ReadBasic.Chat",
+                    "type": "Application"
+                }
+            ]
+        }
+    },
+    "validDomains": [
+        "1555-2601-600-8380-e70-179-bcf5-67c9-6923.ngrok.io"
+    ]
+}
