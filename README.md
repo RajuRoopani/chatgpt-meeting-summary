@@ -1,4 +1,4 @@
-# How to use this OpenAI Teams Bot app
+# How to use this ChatGPT Teams Bot app for meetings
 
 This is an OpenAI Teams Bot app to let you chat with OpenAI API in Microsoft Teams and if you add it in teams meeting this bot can generate meeting summary 
 
